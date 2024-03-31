@@ -1,3 +1,4 @@
+import Home from './components/Home';
 import NavBar from './components/NavBar';
 import './index.css';
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <div>
         <NavBar/>
+        <Home/>
       </div>
     </>
   );
