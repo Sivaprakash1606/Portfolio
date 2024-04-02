@@ -2,7 +2,7 @@ import React from 'react';
 import css from '../assets/css.png';
 import flutter from '../assets/flutter.png';
 import github from '../assets/github.png';
-import htm from '../assets/html.png';
+import html from '../assets/html.png';
 import mangodb from '../assets/mangodb.png';
 import nodejs from '../assets/node.png';
 import react from '../assets/react.png';
@@ -12,7 +12,7 @@ const Experience = () => {
 	const techs = [
 		{
 			id: 1,
-			src: htm,
+			src: html,
 			title: 'HTML',
 			style: 'shadow-orange-500',
 			href:'https://www.javatpoint.com/html5-tutorial',
