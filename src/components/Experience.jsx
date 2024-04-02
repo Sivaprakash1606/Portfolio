@@ -15,48 +15,56 @@ const Experience = () => {
 			src: html,
 			title: 'HTML',
 			style: 'shadow-orange-500',
+			href:'https://www.javatpoint.com/html5-tutorial',
 		},
 		{
 			id: 2,
 			src: css,
 			title: 'CSS',
 			style: 'shadow-blue-500',
+			href:'https://www.w3.org/Style/CSS/Overview.en.html',
 		},
 		{
 			id: 3,
 			src: react,
 			title: 'React',
 			style: 'shadow-blue-600',
+			href:'https://react.dev/',
 		},
 		{
 			id: 4,
 			src: tailwind,
 			title: 'Tailwind',
 			style: 'shadow-sky-400',
+			href:'https://tailwindcss.com/',
 		},
 		{
 			id: 5,
 			src: nodejs,
 			title: 'Node JS',
 			style: 'shadow-green-500',
+			href:'https://nodejs.org/en/learn/getting-started/introduction-to-nodejs',
 		},
 		{
 			id: 6,
 			src: flutter,
 			title: 'Flutter',
 			style: 'shadow-sky-400',
+			href:'https://flutter.dev/',
 		},
 		{
 			id: 7,
 			src: github,
 			title: 'GitHub',
 			style: 'shadow-gray-500',
+			href:'https://github.com/',
 		},
 		{
 			id: 8,
 			src: mangodb,
 			title: 'MangoDB',
 			style: 'shadow-green-500',
+			href:'https://www.mongodb.com/',
 		},
 	];
 
@@ -74,13 +82,14 @@ const Experience = () => {
 			</div>
 	
 			<div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8  px-12 sm:px-0">
-			  {techs.map(({ id, src, title, style }) => (
+			  {techs.map(({ id, src, title, style,href }) => (
 				<div
+				
 				  key={id}
 				  className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
-				>
+				><a href={href}>
 				  <img src={src} alt="" className="w-20 mx-auto" />
-				  <p className="mt-4">{title}</p>
+				  <p className="mt-4">{title}</p></a>
 				</div>
 			  ))}
 			</div>
