@@ -39,12 +39,19 @@ const Contact = () => {
             ></textarea>
 
             <button className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-              Let's Talk
+              Submit
             </button>
           </form>
         </div>
+        
+        <div className="flex pt-10 md:flex-row flex-col items-center justify-between text-gray-300">
+          <p>Mobile no: +91 7604820477</p> <br />
+          <p>Mail: sivasnprakash3@gmail.com</p>
+        </div>
       </div>
+
     </div>
+    
   );
 };
 

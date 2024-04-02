@@ -13,7 +13,7 @@ const SocialLinks = () => {
 					LinkedIn <FaLinkedin size={30} />
 				</>
 			),
-			href: 'https://linkedin.com',
+			href: 'https://www.linkedin.com/in/sivaprakashselvamc/',
 			style: 'rounded-tr-md',
 		},
 		{
@@ -23,7 +23,7 @@ const SocialLinks = () => {
 					GitHub <FaGithub size={30} />
 				</>
 			),
-			href: 'https://github.com',
+			href: 'https://github.com/Sivaprakash1606',
 		},
 		{
 			id: 3,
@@ -32,7 +32,7 @@ const SocialLinks = () => {
 					Mail <HiOutlineMail size={30} />
 				</>
 			),
-			href: 'https://gmail.com',
+			href: "mailto:sivasnprakash3@gmail.com",
 		},
 		{
 			id: 4,

@@ -1,8 +1,8 @@
 import React from 'react';
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg';
-import installNode from '../assets/portfolio/installNode.jpg';
+import arrayDestruct from '../assets/portfolio/arrayDestruct.png';
+import installNode from '../assets/portfolio/installNode.png';
 
-import reactParallax from '../assets/portfolio/reactParallax.jpg';
+import reactParallax from '../assets/portfolio/reactParallax.png';
 
 const Portfolio = () => {
 	const portfolios = [
