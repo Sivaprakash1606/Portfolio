@@ -1,22 +1,39 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white" >
-        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-            <div className="pb-8">
-                <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-                    About
-                </p>
-            </div>
-            <p className=" text-xl mt-20">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, deserunt illum mollitia officiis qui exercitationem perferendis neque quasi a recusandae necessitatibus tempora iusto! Blanditiis error iste, totam fugiat recusandae rerum laborum perferendis molestiae aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic ab mollitia voluptatibus, a nostrum eveniet laborum!</p>
-            <br />
-            <p className="text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure excepturi deserunt consequuntur! Quibusdam aspernatur atque velit numquam quae. Quae temporibus animi iusto voluptatibus iure laborum dolor quia et explicabo earum doloribus ullam quam debitis beatae autem, itaque doloremque perspiciatis quis cupiditate modi quisquam vel ipsa molestias? Eius autem recusandae officia.
-            </p>
+    <div
+      name="about"
+      className="w-full sm:pt-12 pt-64  h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+    >
+      <div className=" sm:pt-12 pt-64 max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            About
+          </p>
         </div>
-    </div>
-  )
-}
+        <p className="text-xl mt-20">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          qui fugit numquam! Cum vitae temporibus molestiae dicta illum
+          laboriosam similique at mollitia nihil iusto repellat numquam eos illo
+          perspiciatis a unde minima commodi id cupiditate laborum iste, beatae
+          maiores. Voluptatum quisquam dignissimos tempore asperiores sit
+          ratione officiis officia alias vitae.
+        </p>
 
-export default About
+        <br />
+
+        <p className="text-xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          qui fugit numquam! Cum vitae temporibus molestiae dicta illum
+          laboriosam similique at mollitia nihil iusto repellat numquam eos illo
+          perspiciatis a unde minima commodi id cupiditate laborum iste, beatae
+          maiores. Voluptatum quisquam dignissimos tempore asperiores sit
+          ratione officiis officia alias vitae.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default About;
